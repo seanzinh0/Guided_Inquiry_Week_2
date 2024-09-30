@@ -15,18 +15,21 @@
         <ul class="ul ul--nav-right">
             <li>Gmail</li>
             <li>Images</li>
-            <li>Google Apps</li>
-            <li>Sign In</li>
+            <li><img src="apps_16dp_434343_FILL1_wght400_GRAD0_opsz20.png"></img></li>
+            <li id="sign-in-btn">Sign In</li>
         </ul>
     </nav>
     <main id="main--primary">
         <div class="logo">
             <img src="Google_2015_logo.svg.png" alt="google logo">
         </div>
-        <form>
-            <input type="text" id="searchbar" placeholder="Enter Search Here" required>
+        <form id="search-area">
+            <input type="text" id="searchbar" required>
+            <div class="button-area">
+                <input type="submit" id="submit-btn" value="Google Search" onclick="displaySearch">
+                <input type="submit" id="submit-btn" value="Feeling Lucky" onclick="displaySearch">
+            </div> 
         </form>
-        <button class="button button--search" onclick="displaySearch()">Google Search</button>
     </main>
     <footer id="footer--primary">
         <ul class="ul ul--footer-left">
