@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css"  type="text/css">
 </head>
 <body>
-    <nav class="nav nav--primary">
+    <nav id="nav--primary">
         <ul class="ul ul--nav-left">
             <li>About</li>
             <li>Store</li>
@@ -19,14 +19,16 @@
             <li>Sign In</li>
         </ul>
     </nav>
-    <main>
+    <main id="main--primary">
         <div class="logo">
             <img src="Google_2015_logo.svg.png" alt="google logo">
         </div>
-        <form class="searchbar">Search Here</form>
-        <button class="button button--search">Google Search</button>
+        <form>
+            <input type="text" id="searchbar" placeholder="Enter Search Here" required>
+        </form>
+        <button class="button button--search" onclick="displaySearch()">Google Search</button>
     </main>
-    <footer>
+    <footer id="footer--primary">
         <ul class="ul ul--footer-left">
             <li>Advertising</li>
             <li>Business</li>

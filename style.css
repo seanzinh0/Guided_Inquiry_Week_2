@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.nav--primary {
+#nav--primary {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@
     gap: 15px;
 }
 
-main {
+#main--primary {
     position: absolute;
     top: 25%;
     display: flex;
@@ -45,7 +45,11 @@ main {
     width: 25%;
 }
 
-footer {
+#footer--primary {
     position: absolute;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
 }
