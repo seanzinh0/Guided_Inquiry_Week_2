@@ -84,6 +84,7 @@
     border: solid rgb(228, 228, 228) 1px;
     border-radius: 50px;
     padding-left: 35px;
+    outline: none;
 }
 
 #searchbar:hover {
