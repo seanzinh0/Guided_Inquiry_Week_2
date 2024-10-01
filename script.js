@@ -4,7 +4,7 @@ const randomSearchButton = document.getElementById("random-search-btn");
 
 function displaySearch(){
     const searchBarVal = searchBar.value;
-    alert("You searched: " + searchBarVal);
+    window.open("https://google.com/search?q=" + searchBarVal);
 }
 
 function randomMessage(isMouseOver) {
@@ -25,9 +25,12 @@ randomSearchButton.addEventListener("mouseover", function(){
 randomSearchButton.addEventListener("mouseout", function(){
     randomMessage(false);
 });
+
+/* possible drop down for search bar
 searchBar.addEventListener("click", function(){
     searchBar.style.height = "400px";
-})
+});
 searchBar.addEventListener("mouseout", function(){
     searchBar.style.height = "50px";
-})
+});
+*/
