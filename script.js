@@ -18,5 +18,6 @@ function defaultMessage() {
 }
 
 searchButton.addEventListener("click", displaySearch);
+randomSearchButton.addEventListener("click", displaySearch);
 randomSearchButton.addEventListener("mouseover", randomMessage);
 randomSearchButton.addEventListener("mouseout", defaultMessage);
