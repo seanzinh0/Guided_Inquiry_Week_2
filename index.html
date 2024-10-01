@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="style.css"  type="text/css">
+    <script src="script.js"></script>
 </head>
 <body>
     <nav id="nav--primary">
@@ -24,10 +25,10 @@
             <img src="Google_2015_logo.svg.png" alt="google logo">
         </div>
         <form id="search-area">
-            <input type="text" id="searchbar" required>
+            <input type="text" id="searchbar">
             <div class="button-area">
-                <input type="submit" id="submit-btn" value="Google Search" onclick="displaySearch">
-                <input type="submit" id="submit-btn" value="Feeling Lucky" onclick="displaySearch">
+                <input type="button" id="search-btn" value="Google Search">
+                <input type="button" id="random-search-btn" value="Feeling Lucky">
             </div> 
         </form>
     </main>
