@@ -19,6 +19,10 @@
     text-decoration: underline;
 }
 
+#nav--primary a {
+    text-decoration: none;
+}
+
 .ul--nav-left {
     list-style-type: none;
     display: flex;
@@ -41,11 +45,14 @@
 }
 
 .ul--nav-right #sign-in-btn {
-    color: white;
     background-color: #0b57d0;
     border: solid #0b57d0;
     border-radius: 50px;
     padding: 10px;
+}
+
+#sign-in-btn a {
+    color: white;
 }
 
 #main--primary {
