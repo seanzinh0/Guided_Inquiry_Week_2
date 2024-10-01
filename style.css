@@ -55,6 +55,11 @@
     color: white;
 }
 
+#sign-in-btn:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 #main--primary {
     position: absolute;
     top: 25%;
