@@ -1,10 +1,10 @@
-const searchQuery = document.getElementById("searchbar");
+const searchBar = document.getElementById("searchbar");
 const searchButton = document.getElementById("google-search-btn");
 const randomSearchButton = document.getElementById("random-search-btn");
 
 function displaySearch(){
-    const searchQueryVal = searchQuery.value;
-    alert("You searched: " + searchQueryVal);
+    const searchBarVal = searchBar.value;
+    alert("You searched: " + searchBarVal);
 }
 
 function randomMessage(isMouseOver) {
@@ -25,3 +25,9 @@ randomSearchButton.addEventListener("mouseover", function(){
 randomSearchButton.addEventListener("mouseout", function(){
     randomMessage(false);
 });
+searchBar.addEventListener("click", function(){
+    searchBar.style.height = "400px";
+})
+searchBar.addEventListener("mouseout", function(){
+    searchBar.style.height = "50px";
+})
