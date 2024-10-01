@@ -7,17 +7,21 @@ function displaySearch(){
     alert("You searched: " + searchQueryVal);
 }
 
-function randomMessage() {
-    const messageArr = ["Feeling Hungry", "Feeling Tired", "Feeling Bored", "Feeling Sad", "Feeling Happy"];
-    const randomIndex = Math.floor(Math.random() * messageArr.length)
-    randomSearchButton.value = messageArr[randomIndex];
-}
-
-function defaultMessage() {
-    randomSearchButton.value = "Feeling Lucky";
+function randomMessage(isMouseOver) {
+    if(isMouseOver){
+        const messageArr = ["Feeling Hungry", "Feeling Tired", "Feeling Bored", "Feeling Sad", "Feeling Happy"];
+        const randomIndex = Math.floor(Math.random() * messageArr.length)
+        randomSearchButton.value = messageArr[randomIndex];
+    }else{
+        randomSearchButton.value = "Feeling Lucky";
+    }
 }
 
 searchButton.addEventListener("click", displaySearch);
 randomSearchButton.addEventListener("click", displaySearch);
-randomSearchButton.addEventListener("mouseover", randomMessage);
-randomSearchButton.addEventListener("mouseout", defaultMessage);
+randomSearchButton.addEventListener("mouseover", function(){
+    randomMessage(true);
+});
+randomSearchButton.addEventListener("mouseout", function(){
+    randomMessage(false);
+});
