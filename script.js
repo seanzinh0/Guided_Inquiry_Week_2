@@ -1,9 +1,9 @@
 const searchQuery = document.getElementById("searchbar");
-const searchQueryVal = searchQuery.value;
-const searchButton = document.getElementById("search-btn");
+const searchButton = document.getElementById("google-search-btn");
 const randomSearchButton = document.getElementById("random-search-btn");
 
 function displaySearch(){
+    const searchQueryVal = searchQuery.value;
     alert("You searched: " + searchQueryVal);
 }
 
@@ -17,6 +17,6 @@ function defaultMessage() {
     randomSearchButton.value = "Feeling Lucky";
 }
 
-searchButton.addEventListener("click", displaySearch());
-randomSearchButton.addEventListener("mouseover", randomMessage());
-randomSearchButton.addEventListener("mouseout", defaultMessage());
+searchButton.addEventListener("click", displaySearch);
+randomSearchButton.addEventListener("mouseover", randomMessage);
+randomSearchButton.addEventListener("mouseout", defaultMessage);
