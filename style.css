@@ -58,6 +58,7 @@
 #sign-in-btn:hover {
     color: white;
     text-decoration: underline;
+    box-shadow: 2px 2px rgb(180, 180, 180);
 }
 
 #main--primary {

@@ -34,3 +34,5 @@ searchBar.addEventListener("mouseout", function(){
     searchBar.style.height = "50px";
 });
 */
+
+//Search URL For Images: https://www.google.com/search?q=butter&udm=2
