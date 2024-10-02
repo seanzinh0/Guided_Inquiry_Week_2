@@ -73,8 +73,7 @@
 }
 
 #main--primary {
-    position: absolute;
-    top: 25%;
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,8 +85,15 @@
     justify-content: center;
 }
 
-.logo img {
-    width: 15%;
+#google-logo {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+}
+
+#google-img-logo {
+    width: 250px;
+    height: auto;
     padding: 15px;
 }
 
