@@ -7,3 +7,4 @@ function imgSearch(){
 }
 
 imgSearchButton.addEventListener("click", imgSearch);
+imgSearchButton.addEventListener("submit", imgSearch);

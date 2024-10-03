@@ -18,7 +18,9 @@ function randomMessage(isMouseOver) {
 }
 
 searchButton.addEventListener("click", displaySearch);
+searchButton.addEventListener("submit", displaySearch);
 randomSearchButton.addEventListener("click", displaySearch);
+randomSearchButton.addEventListener("submit", displaySearch);
 randomSearchButton.addEventListener("mouseover", function(){
     randomMessage(true);
 });
