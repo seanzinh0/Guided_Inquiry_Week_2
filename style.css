@@ -179,16 +179,58 @@
     padding-bottom: 50px;
 }
 
+#find-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 #find-area {
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
 
+#search-area-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#empty-head {
+    margin-bottom: 20px;
+}
+
 #search-area-find {
     display: flex;
     flex-direction: column;
     gap: 18px;
+    top: 50px;
+}
+
+.advanced-searchbar {
+    width: 600px;
+}
+
+#num-start {
+    width: 289px;
+}
+
+#num-end {
+    width: 289px;
+}
+
+#adv--search-btn {
+    color: white;
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+    background-color: #0b57d0;
+    border: none;
+}
+
+#adv--search-btn:hover {
+    background-color: #5f8ace;
 }
 
 #search-area-find-labels {
@@ -196,6 +238,12 @@
     flex-direction: column;
     gap: 22px;
     padding-top: 2px;
+}
+
+#to-do-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 #to-do {

@@ -20,6 +20,10 @@
         <h1 id="adv--search-head">Advanced Search</h1>
         <form id="adv--search">
             <div id="find-area">
+            <div id="find-wrap">
+            <div id="find-label-head">
+                <h2>Find pages with..</h2>
+            </div>
             <div id="search-area-find-labels">
                 <label for="all-words">all these words:</label>
                 <label for="exact-words">this exact word or phrase:</label>
@@ -27,7 +31,12 @@
                 <label for="none-words">none of these words:</label>
                 <label for="num-start">numbers ranging from:</label>
             </div>
-            <div id="search-area-find">            
+            </div>
+            <div id="search-area-find">
+                <div id="search-area-wrap">
+                <div id="empty-head">
+                    <h2></h2>
+                </div>           
                 <input type="text" class="advanced-searchbar" id="all-words">     
                 <input type="text" class="advanced-searchbar" id="exact-words">          
                 <input type="text" class="advanced-searchbar" id="any-words">
@@ -37,6 +46,12 @@
                     <label for="num-end">to</label>
                     <input type="text" class="advanced-searchbar"id="num-end">
                 </div>
+                <input type="submit" id="adv--search-btn" value="Advanced Search">
+                </div>
+            </div>
+            <div id="to-do-wrap">
+            <div id="to-do-head">
+                <h2>Todo this in the search box</h2>
             </div>
             <div id="to-do">
                 <p>Type the important words: tricolor rat terrier</p>
@@ -44,6 +59,7 @@
                 <p>Type OR between all the words you want: miniature OR standard</p>
                 <p>Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</p>
                 <p>Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</p>
+            </div>
             </div>
             </div>
         </form>
