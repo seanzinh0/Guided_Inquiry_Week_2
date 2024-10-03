@@ -167,3 +167,43 @@
     flex-direction: row;
     gap: 15px;
 }
+
+#main--primary-advanced {
+    padding-left: 45px;
+    padding-top: 15px;
+}
+
+#adv--search-head {
+    color: red;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#find-area {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#search-area-find {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#search-area-find-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-top: 2px;
+}
+
+#to-do {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+#to-do p {
+    font-size: 12px;
+}

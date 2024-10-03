@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css"  type="text/css">
+</head>
+<body>
+    <nav id="nav--primary">
+        <ul class="ul--nav-left">
+            <li><a href="index.html">Google</a></li>
+        </ul>
+        <ul class="ul--nav-right">
+            <li id="apps-btn"><a href="https://about.google/products/"><img src="apps_16dp_434343_FILL1_wght400_GRAD0_opsz20.png" alt="apps page"></a></li>
+            <li id="sign-in-btn"><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&ifkv=ARpgrqdZn8wEsqSzf3uDhIZLUx_cS3dJPNqdSHTvZqmA6lFDTtsTAasLzp6vUnJPdMV7LzjFDVYuVQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S252060972%3A1727786335814349&ddm=0">Sign In</a></li>
+        </ul>
+    </nav>
+    <main id="main--primary-advanced">
+        <h1 id="adv--search-head">Advanced Search</h1>
+        <form id="adv--search">
+            <div id="find-area">
+            <div id="search-area-find-labels">
+                <label for="all-words">all these words:</label>
+                <label for="exact-words">this exact word or phrase:</label>
+                <label for="any-words">any of these words:</label>
+                <label for="none-words">none of these words:</label>
+                <label for="num-start">numbers ranging from:</label>
+            </div>
+            <div id="search-area-find">            
+                <input type="text" class="advanced-searchbar" id="all-words">     
+                <input type="text" class="advanced-searchbar" id="exact-words">          
+                <input type="text" class="advanced-searchbar" id="any-words">
+                <input type="text" class="advanced-searchbar" id="none-words">
+                <div id="num-range">
+                    <input type="text" class="advanced-searchbar" id="num-start">
+                    <label for="num-end">to</label>
+                    <input type="text" class="advanced-searchbar"id="num-end">
+                </div>
+            </div>
+            <div id="to-do">
+                <p>Type the important words: tricolor rat terrier</p>
+                <p>Put exact words in quotes: "rat terrier"</p>
+                <p>Type OR between all the words you want: miniature OR standard</p>
+                <p>Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</p>
+                <p>Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</p>
+            </div>
+            </div>
+        </form>
+    </main>
+    <footer id="footer--primary">
+        <ul class="ul--footer-left">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search Works</li>
+        </ul>
+        <p>2024 &copy Foogle Made by Sean Pichay </p>
+        <ul class="ul--footer-right">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+        </ul>
+    </footer>
+</body>
+</html>
