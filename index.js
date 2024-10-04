@@ -2,8 +2,12 @@ const searchBar = document.getElementById("searchbar");
 const searchButton = document.getElementById("google-search-btn");
 const randomSearchButton = document.getElementById("random-search-btn");
 
-function displaySearch(){
+function displaySearch(event){
+    event.preventDefault();
     const searchBarVal = searchBar.value;
+    if(searchBarVal === ""){
+        return;
+    }
     window.open("https://google.com/search?q=" + searchBarVal);
 }
 
@@ -18,9 +22,7 @@ function randomMessage(isMouseOver) {
 }
 
 searchButton.addEventListener("click", displaySearch);
-searchButton.addEventListener("submit", displaySearch);
 randomSearchButton.addEventListener("click", displaySearch);
-randomSearchButton.addEventListener("submit", displaySearch);
 randomSearchButton.addEventListener("mouseover", function(){
     randomMessage(true);
 });
