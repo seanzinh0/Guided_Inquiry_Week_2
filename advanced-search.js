@@ -18,7 +18,7 @@ function advancedSearch(){
     let finalNoneWords;
     let timeRange;
     if(exactWordsVal){
-        finalExactWords = `"${allWordsVal}"`
+        finalExactWords = `"${exactWordsVal}"`
     }else if(exactWordsVal === ""){
         finalExactWords = "";
     }if(anyWordsVal){
