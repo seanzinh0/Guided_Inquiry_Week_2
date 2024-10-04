@@ -147,7 +147,11 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 15px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);   
+}
+
+#footer--primary a {
+    text-decoration: none;
 }
 
 #footer--primary li:hover{
