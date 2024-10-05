@@ -28,6 +28,8 @@ eventListeners used:
 "mouseover"
 "mouseout"
 
+Please use the navbar to navigate to my google, google images, and advanced search pages :)
+
 Thank you for visiting my page!!!
 
 -Sean Pichay
